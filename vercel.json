@@ -1,5 +1,12 @@
 {
     "version": 2,
+    "functions": {
+    "api/test.js": {
+      "memory": 3008,
+      "maxDuration": 60
+    }
+  },
+    
     "builds": [
         { "src": "/public/index.php", "use": "vercel-php@0.3.1" },
         { "src": "/public/**", "use": "@vercel/static" }
