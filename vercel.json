@@ -1,7 +1,7 @@
 {
     "version": 2,
     "functions": {
-    "api/test.js": {
+    "api/index.php": {
       "memory": 3008,
       "maxDuration": 60
     }
